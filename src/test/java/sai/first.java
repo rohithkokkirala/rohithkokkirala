@@ -15,7 +15,7 @@ public class first {
 		driver.get("https://demoqa.com/automation-practice-form");
 		driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("rohith");
 		driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("rao");
-		driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("riouwhdmwdhw@wknd");
+		driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("riouwhdmxddwdhw@wknd");
 		driver.findElement(By.xpath("//label[@for='gender-radio-1']")).click();
 		driver.findElement(By.xpath("//input[@id='userNumber']")).sendKeys("0987698765");
 		driver.findElement(By.xpath("//input[@id='dateOfBirthInput']")).clear();
